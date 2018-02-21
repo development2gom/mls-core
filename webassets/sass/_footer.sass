@@ -1,0 +1,88 @@
+/*!
+	-----------------------------------------------------------------------------
+
+	3.0 - Header
+			# Extra
+
+	-----------------------------------------------------------------------------
+	*/
+
+footer
+	background-color: $white
+	background-image: url(../images/bg-footer.png)
+	background-position: 50%
+	background-repeat: no-repeat
+	background-size: cover
+	height: 400px
+	display: flex
+	flex-wrap: wrap
+	padding: 60px 0 0
+	position: relative
+	width: 100%
+	.container-1024
+		display: flex
+		flex-wrap: wrap
+
+		.footer-row
+			display: flex
+			flex-wrap: wrap
+			margin-bottom: 40px
+			width: 100%
+			&:last-child
+				margin-bottom: 0
+			.footer-siguenos,
+			.footer-contactanos,
+			.footer-logo
+				display: flex
+				flex-direction: column
+				width: 20%
+			.footer-siguenos,
+			.footer-contactanos
+				justify-content: flex-start
+				h3
+					color: $white
+					font-size: 1.35rem
+					font-weight: $semib
+					margin-bottom: 30px
+				.footer-ul
+					display: flex
+					flex-direction: column
+					a
+						color: $white
+						display: flex
+						font-size: 0.875rem
+						justify-content: flex-start
+						margin-bottom: 24px
+						i
+							margin-right: 16px
+
+			.footer-logo
+				align-items: flex-end
+				justify-content: flex-end
+				margin-left: 40%
+				img
+					margin-top: 20px
+					max-width: 110px
+
+			.footer-nav,
+			.footer-author
+				align-items: center
+				display: flex
+				a,
+				p
+					color: $white
+					font-size: 0.75rem
+					text-transform: uppercase
+
+			.footer-nav
+				justify-content: space-between
+				width: 40%
+				a
+					font-weight: $regular
+
+			.footer-author
+				justify-content: flex-end
+				width: 60%
+				p
+					font-weight: $light
+

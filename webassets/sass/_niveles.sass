@@ -1,0 +1,71 @@
+/*!
+	-----------------------------------------------------------------------------
+
+	3.0 - Header
+			# Extra
+
+	-----------------------------------------------------------------------------
+	*/
+
+.niveles
+	background-color: $white
+	background-image: url(../images/bg-niveles.png)
+	background-position: 50%
+	background-repeat: no-repeat
+	background-size: cover
+	padding: 80px 0
+	position: relative
+	z-index: 2
+	.container-1024
+		align-items: flex-start
+		display: flex
+		flex-direction: column
+
+		.title
+			margin-bottom: 30px
+			h2
+				color: #1761A4
+				font-size: 2rem
+				font-weight: $light
+				text-transform: uppercase
+			hr
+				background-color: #DDD
+				height: 2px
+				margin: 6px 0 0
+				width: 60%
+
+		.niveles-row
+			display: flex
+			flex-wrap: wrap
+			width: 100%
+			.niveles-col
+				margin-right: 6%
+				width: 47%
+				&:last-child
+					margin-right: 0
+				.niveles-item
+					margin-bottom: 40px
+					h3
+						color: #1761A4
+						font-size: 1.375rem
+						font-weight: $light
+						letter-spacing: 1px
+						margin-bottom: 12px
+						text-transform: uppercase
+					p
+						color: #3E3E3E
+						font-size: 1rem
+						line-height: 1.3
+						margin-bottom: 18px
+						text-align: justify
+					&.niveles-item-bg
+						background-color: #3B8BCE
+						border: 2px solid #1761A4
+						+border-radius(8px)
+						// margin-bottom: 0
+						margin-top: 60px
+						padding: 30px 16px
+						h3,
+						p
+							color: $white
+
