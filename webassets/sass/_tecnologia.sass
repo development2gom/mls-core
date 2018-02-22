@@ -41,10 +41,34 @@
 			justify-content: flex-start
 			width: 100%
 			.tecnologia-col
+				align-items: center
+				display: flex
+				flex-direction: column
+				justify-content: center
 				margin-right: 1.33%
 				width: 24%
 				&:last-child
 					margin-right: 0
+				+respond-to(tl)
+					margin-right: 2%
+					width: 49%
+					&:nth-child(2n + 2)
+						margin-right: 0
+				+respond-to(tp)
+					margin-bottom: 60px
+					width: 100%
+					&:last-child
+						margin-bottom: 0
+				+respond-to(sl)
+					margin-bottom: 60px
+					width: 100%
+					&:last-child
+						margin-bottom: 0
+				+respond-to(sp)
+					margin-bottom: 60px
+					width: 100%
+					&:last-child
+						margin-bottom: 0
 				h3
 					color: $white
 					font-size: 0.9375rem

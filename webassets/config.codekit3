@@ -4,531 +4,434 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "C172FDD3-72B0-466E-910B-E3C1CEE02A28"
+		"uuidString": "79C175A5-4ECE-44ED-A3A0-127EED50A7CF"
 		}
 	],
 "creatorBuild": "26268",
 "files": {
-	"\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
-	"\/webassets\/css\/ionicons.min.css": {
+	"\/css\/ionicons.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/webassets\/css\/ionicons.min-min.css",
+		"oAP": "\/css\/ionicons.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/webassets\/css\/site.css": {
+	"\/css\/site.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/webassets\/css\/site-min.css",
+		"oAP": "\/css\/site-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/webassets\/favicons\/android-icon-192x192.png": {
+	"\/favicons\/android-icon-192x192.png": {
 		"ft": 32768,
 		"iS": 13568,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/android-icon-192x192.png",
+		"oAP": "\/favicons\/android-icon-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/apple-icon-114x114.png": {
+	"\/favicons\/apple-icon-114x114.png": {
 		"ft": 32768,
 		"iS": 7063,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/apple-icon-114x114.png",
+		"oAP": "\/favicons\/apple-icon-114x114.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/apple-icon-120x120.png": {
+	"\/favicons\/apple-icon-120x120.png": {
 		"ft": 32768,
 		"iS": 7239,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/apple-icon-120x120.png",
+		"oAP": "\/favicons\/apple-icon-120x120.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/apple-icon-144x144.png": {
+	"\/favicons\/apple-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 8981,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/apple-icon-144x144.png",
+		"oAP": "\/favicons\/apple-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/apple-icon-152x152.png": {
+	"\/favicons\/apple-icon-152x152.png": {
 		"ft": 32768,
 		"iS": 9208,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/apple-icon-152x152.png",
+		"oAP": "\/favicons\/apple-icon-152x152.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/apple-icon-180x180.png": {
+	"\/favicons\/apple-icon-180x180.png": {
 		"ft": 32768,
 		"iS": 12623,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/apple-icon-180x180.png",
+		"oAP": "\/favicons\/apple-icon-180x180.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/apple-icon-57x57.png": {
+	"\/favicons\/apple-icon-57x57.png": {
 		"ft": 32768,
 		"iS": 2427,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/apple-icon-57x57.png",
+		"oAP": "\/favicons\/apple-icon-57x57.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/apple-icon-60x60.png": {
+	"\/favicons\/apple-icon-60x60.png": {
 		"ft": 32768,
 		"iS": 2595,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/apple-icon-60x60.png",
+		"oAP": "\/favicons\/apple-icon-60x60.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/apple-icon-72x72.png": {
+	"\/favicons\/apple-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 3127,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/apple-icon-72x72.png",
+		"oAP": "\/favicons\/apple-icon-72x72.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/apple-icon-76x76.png": {
+	"\/favicons\/apple-icon-76x76.png": {
 		"ft": 32768,
 		"iS": 4137,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/apple-icon-76x76.png",
+		"oAP": "\/favicons\/apple-icon-76x76.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/favicon-16x16.png": {
+	"\/favicons\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 575,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/favicon-16x16.png",
+		"oAP": "\/favicons\/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/favicon-32x32.png": {
+	"\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1256,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/favicon-32x32.png",
+		"oAP": "\/favicons\/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/favicon-96x96.png": {
+	"\/favicons\/favicon-96x96.png": {
 		"ft": 32768,
 		"iS": 5686,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/favicon-96x96.png",
+		"oAP": "\/favicons\/favicon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/favicons\/ms-icon-144x144.png": {
+	"\/favicons\/ms-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 8981,
 		"oA": 0,
-		"oAP": "\/webassets\/favicons\/ms-icon-144x144.png",
+		"oAP": "\/favicons\/ms-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/fonts\/ionicons.eot": {
+	"\/fonts\/ionicons.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webassets\/fonts\/ionicons.eot",
+		"oAP": "\/fonts\/ionicons.eot",
 		"oF": 0
 		},
-	"\/webassets\/fonts\/ionicons.svg": {
+	"\/fonts\/ionicons.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/webassets\/fonts\/ionicons.svg",
+		"oAP": "\/fonts\/ionicons.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/webassets\/fonts\/ionicons.ttf": {
+	"\/fonts\/ionicons.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webassets\/fonts\/ionicons.ttf",
+		"oAP": "\/fonts\/ionicons.ttf",
 		"oF": 0
 		},
-	"\/webassets\/fonts\/ionicons.woff": {
+	"\/fonts\/ionicons.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webassets\/fonts\/ionicons.woff",
+		"oAP": "\/fonts\/ionicons.woff",
 		"oF": 0
 		},
-	"\/webassets\/images\/acerca-de.png": {
+	"\/images\/acerca-de.png": {
 		"ft": 32768,
 		"iS": 2223457,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/acerca-de.png",
+		"oAP": "\/images\/acerca-de.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/arrow.png": {
+	"\/images\/arrow.png": {
 		"ft": 32768,
 		"iS": 3996,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/arrow.png",
+		"oAP": "\/images\/arrow.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/atencion-cliente.png": {
+	"\/images\/atencion-cliente.png": {
 		"ft": 32768,
 		"iS": 393777,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/atencion-cliente.png",
+		"oAP": "\/images\/atencion-cliente.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/bg-footer.png": {
+	"\/images\/bg-footer.png": {
 		"ft": 32768,
 		"iS": 2531698,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/bg-footer.png",
+		"oAP": "\/images\/bg-footer.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/bg-header.png": {
+	"\/images\/bg-header.png": {
 		"ft": 32768,
 		"iS": 1038227,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/bg-header.png",
+		"oAP": "\/images\/bg-header.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/bg-niveles.png": {
+	"\/images\/bg-niveles.png": {
 		"ft": 32768,
 		"iS": 1691554,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/bg-niveles.png",
+		"oAP": "\/images\/bg-niveles.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/bg-servicios.png": {
+	"\/images\/bg-servicios.png": {
 		"ft": 32768,
 		"iS": 2496752,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/bg-servicios.png",
+		"oAP": "\/images\/bg-servicios.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/cobertura-nacional.png": {
+	"\/images\/cobertura-nacional.png": {
 		"ft": 32768,
 		"iS": 320886,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/cobertura-nacional.png",
+		"oAP": "\/images\/cobertura-nacional.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/cross-docks.png": {
+	"\/images\/cross-docks.png": {
 		"ft": 32768,
 		"iS": 274567,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/cross-docks.png",
+		"oAP": "\/images\/cross-docks.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/entrega-tiempo.png": {
+	"\/images\/entrega-tiempo.png": {
 		"ft": 32768,
 		"iS": 321991,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/entrega-tiempo.png",
+		"oAP": "\/images\/entrega-tiempo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/evidencias.png": {
+	"\/images\/evidencias.png": {
 		"ft": 32768,
 		"iS": 250212,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/evidencias.png",
+		"oAP": "\/images\/evidencias.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/final.png": {
+	"\/images\/final.png": {
 		"ft": 32768,
 		"iS": 231359,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/final.png",
+		"oAP": "\/images\/final.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/marcas.png": {
+	"\/images\/marcas.png": {
 		"ft": 32768,
-		"iS": 97135,
+		"iS": 169981,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/marcas.png",
+		"oAP": "\/images\/marcas.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/mls.png": {
+	"\/images\/mls.png": {
 		"ft": 32768,
 		"iS": 7440,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/mls.png",
+		"oAP": "\/images\/mls.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/panel-1.jpg": {
-		"ft": 16384,
-		"iS": 52784,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/panel-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/panel-2.jpg": {
-		"ft": 16384,
-		"iS": 26424,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/panel-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/panel-3.jpg": {
-		"ft": 16384,
-		"iS": 24647,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/panel-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/panel-4.jpg": {
-		"ft": 16384,
-		"iS": 74110,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/panel-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/panel-5.jpg": {
-		"ft": 16384,
-		"iS": 57192,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/panel-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/panel-6.jpg": {
-		"ft": 16384,
-		"iS": 34372,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/panel-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/panel-7.jpg": {
-		"ft": 16384,
-		"iS": 50771,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/panel-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/panel-8.jpg": {
-		"ft": 16384,
-		"iS": 67818,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/panel-8.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/panel-9.jpg": {
-		"ft": 16384,
-		"iS": 46876,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/panel-9.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/planeacion.png": {
+	"\/images\/planeacion.png": {
 		"ft": 32768,
 		"iS": 199830,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/planeacion.png",
+		"oAP": "\/images\/planeacion.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/variedad.png": {
+	"\/images\/variedad.png": {
 		"ft": 32768,
 		"iS": 262457,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/variedad.png",
+		"oAP": "\/images\/variedad.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/images\/volumen-requerido.png": {
+	"\/images\/volumen-requerido.png": {
 		"ft": 32768,
 		"iS": 486039,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/volumen-requerido.png",
+		"oAP": "\/images\/volumen-requerido.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/webassets\/js\/jquery-3.1.1.min.js": {
+	"\/js\/jquery-3.1.1.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/webassets\/js\/jquery-3.1.1.min-min.js",
+		"oAP": "\/js\/jquery-3.1.1.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/webassets\/js\/scripts-min.js": {
+	"\/js\/scripts-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/webassets\/js\/scripts-min-min.js",
+		"oAP": "\/js\/scripts-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/webassets\/js\/scripts.js": {
+	"\/js\/scripts.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/webassets\/js\/scripts-min.js",
+		"oAP": "\/js\/scripts-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/webassets\/sass\/_acerca-de.sass": {
+	"\/sass\/_acerca-de.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -536,12 +439,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_acerca-de.css",
+		"oAP": "\/sass\/_acerca-de.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_basic.sass": {
+	"\/sass\/_basic.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -549,12 +452,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_basic.css",
+		"oAP": "\/sass\/_basic.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_cotizacion.sass": {
+	"\/sass\/_cotizacion.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -562,12 +465,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_cotizacion.css",
+		"oAP": "\/sass\/_cotizacion.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_distribucion.sass": {
+	"\/sass\/_distribucion.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -575,12 +478,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_distribucion.css",
+		"oAP": "\/sass\/_distribucion.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_fonts.sass": {
+	"\/sass\/_fonts.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -588,12 +491,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_fonts.css",
+		"oAP": "\/sass\/_fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_footer.sass": {
+	"\/sass\/_footer.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -601,12 +504,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_footer.css",
+		"oAP": "\/sass\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_header.sass": {
+	"\/sass\/_header.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -614,12 +517,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_header.css",
+		"oAP": "\/sass\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_industrias.sass": {
+	"\/sass\/_industrias.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -627,12 +530,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_industrias.css",
+		"oAP": "\/sass\/_industrias.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_ionicons-font.scss": {
+	"\/sass\/_ionicons-font.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -640,12 +543,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_ionicons-font.css",
+		"oAP": "\/sass\/_ionicons-font.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_ionicons-icons.scss": {
+	"\/sass\/_ionicons-icons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -653,12 +556,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_ionicons-icons.css",
+		"oAP": "\/sass\/_ionicons-icons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_ionicons-variables.scss": {
+	"\/sass\/_ionicons-variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -666,12 +569,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_ionicons-variables.css",
+		"oAP": "\/sass\/_ionicons-variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_ionicons.scss": {
+	"\/sass\/_ionicons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -679,12 +582,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_ionicons.css",
+		"oAP": "\/sass\/_ionicons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_marcas.sass": {
+	"\/sass\/_marcas.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -692,12 +595,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_marcas.css",
+		"oAP": "\/sass\/_marcas.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_mixins.sass": {
+	"\/sass\/_mixins.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -705,12 +608,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_mixins.css",
+		"oAP": "\/sass\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_niveles.sass": {
+	"\/sass\/_niveles.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -718,12 +621,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_niveles.css",
+		"oAP": "\/sass\/_niveles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_normalize.sass": {
+	"\/sass\/_normalize.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -731,12 +634,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_normalize.css",
+		"oAP": "\/sass\/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_servicios.sass": {
+	"\/sass\/_servicios.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -744,12 +647,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_servicios.css",
+		"oAP": "\/sass\/_servicios.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_site-styles.sass": {
+	"\/sass\/_site-styles.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -757,12 +660,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_site-styles.css",
+		"oAP": "\/sass\/_site-styles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_tecnologia.sass": {
+	"\/sass\/_tecnologia.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -770,12 +673,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_tecnologia.css",
+		"oAP": "\/sass\/_tecnologia.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/_variables.sass": {
+	"\/sass\/_variables.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -783,31 +686,21 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/webassets\/sass\/_variables.css",
+		"oAP": "\/sass\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/webassets\/sass\/site.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/webassets\/sass\/site-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/webassets\/sass\/site.sass": {
-		"aP": 1,
+	"\/sass\/site.sass": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/webassets\/css\/site.css",
-		"oF": 2,
+		"oAP": "\/sass\/site.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		}
@@ -817,10 +710,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 540772788,
-	"displayValue": "corp",
+	"creationDate": 540924112,
+	"displayValue": "webassets",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_purple"
+	"iconImageName": "brackets_gray"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -23,6 +23,14 @@
 
 		.title
 			margin-bottom: 30px
+			+respond-to(tl)
+				margin-bottom: 40px
+			+respond-to(tp)
+				margin-bottom: 50px
+			+respond-to(sl)
+				margin-bottom: 60px
+			+respond-to(sp)
+				margin-bottom: 70px
 			h2
 				color: #1761A4
 				font-size: 2rem
@@ -43,6 +51,14 @@
 				width: 47%
 				&:last-child
 					margin-right: 0
+				+respond-to(tl)
+					width: 100%
+				+respond-to(tp)
+					width: 100%
+				+respond-to(sl)
+					width: 100%
+				+respond-to(sp)
+					width: 100%
 				.niveles-item
 					margin-bottom: 40px
 					h3

@@ -13,17 +13,21 @@ footer
 	background-position: 50%
 	background-repeat: no-repeat
 	background-size: cover
-	height: 400px
 	display: flex
 	flex-wrap: wrap
-	padding: 60px 0 0
+	padding: 60px 0 10px
 	position: relative
 	width: 100%
+	+respond-to(sl)
+		padding: 60px 0 30px
+	+respond-to(sp)
+		padding: 60px 0 40px
 	.container-1024
 		display: flex
 		flex-wrap: wrap
 
-		.footer-row
+		.footer-details,
+		.footer-cite
 			display: flex
 			flex-wrap: wrap
 			margin-bottom: 40px
@@ -36,30 +40,77 @@ footer
 				display: flex
 				flex-direction: column
 				width: 20%
+				+respond-to(md)
+					width: 26%
+				+respond-to(tl)
+					width: 30%
+				+respond-to(tp)
+					width: 50%
+				+respond-to(sl)
+					width: 100%
+				+respond-to(sp)
+					width: 100%
 			.footer-siguenos,
 			.footer-contactanos
 				justify-content: flex-start
+				+respond-to(tp)
+					margin-bottom: 20px
+				+respond-to(sl)
+					margin-bottom: 30px
+				+respond-to(sp)
+					margin-bottom: 30px
 				h3
 					color: $white
 					font-size: 1.35rem
 					font-weight: $semib
 					margin-bottom: 30px
+					+respond-to(sl)
+						text-align: center
+					+respond-to(sp)
+						text-align: center
 				.footer-ul
 					display: flex
 					flex-direction: column
+					+respond-to(sl)
+						align-items: center
+					+respond-to(sp)
+						align-items: center
 					a
 						color: $white
 						display: flex
 						font-size: 0.875rem
 						justify-content: flex-start
 						margin-bottom: 24px
+						+respond-to(sl)
+							margin-bottom: 20px
+							text-align: center
+						+respond-to(sp)
+							margin-bottom: 16px
+							text-align: center
+
 						i
 							margin-right: 16px
-
+			
 			.footer-logo
 				align-items: flex-end
 				justify-content: flex-end
 				margin-left: 40%
+				+respond-to(md)
+					margin-left: 22%
+				+respond-to(tl)
+					margin-left: 0
+				+respond-to(tp)
+					align-items: center
+					justify-content: center
+					margin-left: 0
+				+respond-to(sl)
+					align-items: center
+					justify-content: center
+					margin-left: 0
+				+respond-to(sp)
+					align-items: center
+					justify-content: center
+					margin-left: 0
 				img
 					margin-top: 20px
 					max-width: 110px
@@ -68,6 +119,7 @@ footer
 			.footer-author
 				align-items: center
 				display: flex
+				flex-wrap: wrap
 				a,
 				p
 					color: $white
@@ -77,12 +129,60 @@ footer
 			.footer-nav
 				justify-content: space-between
 				width: 40%
+				+respond-to(md)
+					width: 55%
+				+respond-to(tl)
+					margin-bottom: 30px
+					width: 100%
+				+respond-to(tp)
+					margin-bottom: 30px
+					width: 100%
+				+respond-to(sp)
+					flex-direction: column
+					margin-bottom: 30px
+					width: 100%
+				+respond-to(sl)
+					flex-direction: column
+					margin-bottom: 30px
+					width: 100%
 				a
 					font-weight: $regular
+					+respond-to(sp)
+						margin-bottom: 10px
+					+respond-to(sl)
+						margin-bottom: 10px
 
 			.footer-author
 				justify-content: flex-end
 				width: 60%
+				+respond-to(md)
+					width: 45%
+				+respond-to(tl)
+					justify-content: center
+					width: 100%
+				+respond-to(tp)
+					justify-content: center
+					width: 100%
+				+respond-to(sl)
+					justify-content: center
+					width: 100%
+				+respond-to(sp)
+					justify-content: center
+					width: 100%
 				p
 					font-weight: $light
+
+		.footer-details
+			+respond-to(tl)
+				justify-content: space-between
+			+respond-to(tp)
+				justify-content: center
+			+respond-to(sl)
+				justify-content: center
+			+respond-to(sp)
+				justify-content: center
+
+			
+
+
 

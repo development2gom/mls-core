@@ -15,12 +15,17 @@
 	.container-1024
 		display: flex
 		flex-wrap: wrap
-		.cotizacion-col
+		.cotizacion-title,
+		.cotizacion-btn
 			align-items: center
 			display: flex
 			flex-direction: column
 			justify-content: center
 			width: 50%
+			+respond-to(tl)
+				width: 100%
+			+respond-to(tp)
+				width: 100%
 			h2,
 			a
 				color: $white
@@ -28,11 +33,19 @@
 				font-size: 2rem
 				font-weight: $light
 				text-transform: uppercase
+				+respond-to(tp)
+					text-align: center
+				+respond-to(sl)
+					text-align: center
+				+respond-to(sp)
+					text-align: center
 			hr
 				background-color: #DDD
 				height: 2px
 				margin: 6px 0 0
 				width: 60%
+				+respond-to(md)
+					margin: 0
 			a
 				border: 1px solid $white
 				+border-radius(3px)
@@ -40,3 +53,14 @@
 				font-size: 0.9375rem
 				font-weight: $light
 				padding: 8px 60px
+		.cotizacion-title
+			+respond-to(md)
+				align-items: flex-start
+			+respond-to(tl)
+				margin-bottom: 30px
+			+respond-to(tp)
+				margin-bottom: 30px
+			+respond-to(sl)
+				margin-bottom: 30px
+			+respond-to(sp)
+				margin-bottom: 30px

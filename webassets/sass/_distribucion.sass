@@ -28,6 +28,7 @@
 				color: #1761A4
 				font-size: 2rem
 				font-weight: $light
+				text-align: center
 				text-transform: uppercase
 			hr
 				background-color: #DDD
@@ -44,12 +45,95 @@
 				align-items: center
 				display: flex
 				margin-bottom: 60px
+				&:nth-child(1)
+					+respond-to(tl)
+						order: 1
+					+respond-to(tp)
+						order: 1
+					+respond-to(sl)
+						order: 1
+					+respond-to(sp)
+						order: 1
+				&:nth-child(2)
+					+respond-to(tl)
+						order: 2
+					+respond-to(tp)
+						order: 2
+					+respond-to(sl)
+						display: none
+					+respond-to(sp)
+						display: none
+				&:nth-child(3)
+					+respond-to(tl)
+						order: 3
+					+respond-to(tp)
+						order: 3
+					+respond-to(sl)
+						order: 3
+					+respond-to(sp)
+						order: 3
+				&:nth-child(4)
+					+respond-to(tl)
+						order: 5
+					+respond-to(tp)
+						order: 5
+					+respond-to(sl)
+						display: none
+					+respond-to(sp)
+						display: none
+				&:nth-child(5)
+					+respond-to(tl)
+						order: 4
+					+respond-to(tp)
+						order: 4
+					+respond-to(sl)
+						order: 4
+					+respond-to(sp)
+						order: 4
+				&:nth-child(6)
+					+respond-to(tl)
+						order: 6
+					+respond-to(tp)
+						order: 6
+					+respond-to(sl)
+						order: 6
+					+respond-to(sp)
+						order: 6
+				&:nth-child(7)
+					+respond-to(tl)
+						display: none
+					+respond-to(tp)
+						display: none
+					+respond-to(sl)
+						display: none
+					+respond-to(sp)
+						display: none
+				&:nth-child(8)
+					+respond-to(tl)
+						order: 7
+					+respond-to(tp)
+						order: 7
+					+respond-to(sl)
+						order: 7
+					+respond-to(sp)
+						order: 7
 
 			.distribucion-col
 				flex-direction: column
 				justify-content: flex-start
 				width: 25%
-		
+				+respond-to(tl)
+					width: 42.5%
+				+respond-to(tp)
+					width: 42.5%
+				+respond-to(sl)
+					align-items: center
+					justify-content: center
+					width: 90%
+				+respond-to(sp)
+					align-items: center
+					justify-content: center
+					width: 90%
 				.distribucion-col-img
 					margin-bottom: 20px
 					padding: 8px
@@ -101,6 +185,21 @@
 				margin-left: 1.25%
 				margin-right: 1.25%
 				width: 10%
+				+respond-to(tl)
+					width: 10%
+				// &.arrow-1
+				// 	background-color: green
+				// 	+respond-to(tl)
+				// 		background-color: red
+				// &.arrow-2
+				// 	background-color: pink
+				// 	+respond-to(tl)
+				// 		background-color: purple
+				// &.arrow-3
+				// 	background-color: yellow
+				// 	+respond-to(tl)
+				// 		background-color: blue
+
 				img
 					display: flex
 					max-width: 60%

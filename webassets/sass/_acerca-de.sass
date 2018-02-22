@@ -17,8 +17,28 @@
 		flex-wrap: wrap
 		.col-45
 			width: 45%
+			+respond-to(md)
+				width: 55%
+			+respond-to(tl)
+				width: 100%
+			+respond-to(tp)
+				width: 100%
+			+respond-to(sl)
+				width: 100%
+			+respond-to(sp)
+				width: 100%
 		.col-55
 			width: 55%
+			+respond-to(md)
+				width: 45%
+			+respond-to(tl)
+				width: 100%
+			+respond-to(tp)
+				width: 100%
+			+respond-to(sl)
+				width: 100%
+			+respond-to(sp)
+				width: 100%
 		.col-45
 			h2,
 			p
@@ -27,6 +47,10 @@
 				font-size: 2rem
 				font-weight: $light
 				text-transform: uppercase
+				+respond-to(lg)
+					padding-right: 10px
+				+respond-to(md)
+					padding-right: 20px
 			hr
 				background-color: #DDD
 				height: 2px
@@ -38,7 +62,27 @@
 				margin-bottom: 18px
 				text-align: justify
 				width: 80%
+				+respond-to(md)
+					width: 90%
+				+respond-to(tl)
+					width: 100%
+				+respond-to(tp)
+					width: 100%
+				+respond-to(sl)
+					width: 100%
+				+respond-to(sp)
+					width: 100%
 		.col-55
 			img
 				margin-top: -5.625rem
 				max-width: 100%
+				+respond-to(md)
+					margin-top: 60px
+				+respond-to(tl)
+					margin-top: 30px
+				+respond-to(tp)
+					margin-top: 30px
+				+respond-to(sl)
+					margin-top: 30px
+				+respond-to(sp)
+					margin-top: 30px

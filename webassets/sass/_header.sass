@@ -17,57 +17,252 @@ header
 	position: relative
 	width: 100%
 	.header-navigation
-		background-color: rgba(#1761A4,.4)
+		background-color: transparent
 		display: flex
 		height: 80px
 		left: 0
 		position: fixed
 		right: 0
-		top: 
+		top: 0
+		+transition(all 0.3s ease-in)
 		z-index: 99
+		&.header-navigation-blue
+			background-color: rgba(#1761A4,.9)
+			+transition(all 0.3s ease-out)
 		.container-1024
 			align-items: center
 			display: flex
 			justify-content: space-between
-		.logo
-			a
+			+respond-to(tl)
+				flex-wrap: wrap
+				justify-content: flex-start
+			+respond-to(tp)
+				flex-wrap: wrap
+				justify-content: flex-start
+			+respond-to(sl)
+				flex-wrap: wrap
+				justify-content: flex-start
+			+respond-to(sp)
+				flex-wrap: wrap
+				justify-content: flex-start
+
+			.logo
 				display: flex
-				img
-					height: 50px
-		nav
-			align-items: center
-			display: flex
-			justify-content: flex-end
-			a
-				color: $white
-				font-size: .85rem
-				font-weight: $light
-				margin-right: 1.2rem
-				&:last-child
-					margin-right: 0
-				&.num-envio,
-				&.ingresar
-					+border-radius(3px)
-
-				&.num-envio
+				+respond-to(tl)
 					align-items: center
-					background-color: rgba(#1B1B23,.16)
-					border: 1px solid #3B8BCE
-					display: flex
-					justify-content: flex-start
-					i
-						align-items: center
-						background-color: #3B8BCE
-						display: flex
-						justify-content: center
-						padding: .4rem .8rem
-					span
-						display: flex
-						padding: .18rem .8rem
+					background-color: rgba($white,.25)
+					justify-content: space-between
+					height: 100%
+					width: 100%
+				+respond-to(tp)
+					align-items: center
+					background-color: rgba($white,.25)
+					justify-content: space-between
+					height: 100%
+					width: 100%
+				+respond-to(sl)
+					align-items: center
+					background-color: rgba($white,.25)
+					justify-content: space-between
+					height: 100%
+					width: 100%
+				+respond-to(sp)
+					align-items: center
+					background-color: rgba($white,.25)
+					justify-content: space-between
+					height: 100%
+					width: 100%
 
-				&.ingresar
-					background-color: #3B8BCE
-					padding: .4rem .8rem
+				a
+					display: flex
+					img
+						height: 50px
+				.btm-open-menu 
+					display: block
+					width: 40px
+					height: 32px
+					position: relative
+					margin: 9px 0 0 0
+					// position: absolute
+					// top: 22px
+					// left: 4%
+					// margin: 0px auto
+					-webkit-transform: rotate(0deg)
+					-moz-transform: rotate(0deg)
+					-o-transform: rotate(0deg)
+					transform: rotate(0deg)
+					-webkit-transition: .5s ease-in-out
+					-moz-transition: .5s ease-in-out
+					-o-transition: .5s ease-in-out
+					transition: .5s ease-in-out
+					cursor: pointer
+					//    z-index: 1
+					display: none
+					+respond-to(tl)
+						display: flex
+						z-index: 2
+					+respond-to(tp)
+						display: flex
+						z-index: 2
+					+respond-to(sl)
+						display: flex
+						z-index: 2
+					+respond-to(sp)
+						display: flex
+						z-index: 2
+
+					span 
+						display: block
+						position: absolute
+						height: 4px
+						width: 100%
+						background: red
+						left: 0
+						-webkit-transition: .2s ease-in-out
+						-moz-transition: .2s ease-in-out
+						-o-transition: .2s ease-in-out
+						transition: 0.2s ease-in-out
+
+						&:nth-child(1) 
+							top: 0px
+
+
+						&:nth-child(2),
+						&:nth-child(3) 
+							top: 14px
+
+
+						&:nth-child(4) 
+							top: 28px
+
+					&.btm-open-menu-toggle
+						span
+							&:nth-child(1) 
+								top: 14px
+								width: 0%
+								left: 50%
+
+
+							&:nth-child(2) 
+								-webkit-transform: rotate(45deg)
+								-moz-transform: rotate(45deg)
+								-o-transform: rotate(45deg)
+								transform: rotate(45deg)
+								transition-delay: 0.3s
+
+
+							&:nth-child(3) 
+								-webkit-transform: rotate(-45deg)
+								-moz-transform: rotate(-45deg)
+								-o-transform: rotate(-45deg)
+								transform: rotate(-45deg)
+								transition-delay: 0.3s
+
+
+							&:nth-child(4) 
+								top: 14px
+								width: 0%
+								left: 50%
+
+
+			nav
+				align-items: center
+				display: flex
+				justify-content: flex-end
+				+respond-to(tl)
+					background-color: purple
+					flex-wrap: wrap
+					height: 0
+					width: 100%
+				+respond-to(tp)
+					background-color: purple
+					flex-wrap: wrap
+					height: 0
+					width: 100%
+				+respond-to(sl)
+					background-color: purple
+					flex-wrap: wrap
+					height: 0
+					width: 100%
+				+respond-to(sp)
+					background-color: purple
+					flex-wrap: wrap
+					height: 0
+					width: 100%
+				&.nav-toggle
+					display: flex!important
+					height: 90px
+				a
+					color: $white
+					font-size: .85rem
+					font-weight: $light
+					margin-right: 1.2rem
+					padding: 6px 8px
+					+respond-to(md)
+						margin-right: .6rem
+						padding: 6px
+					+respond-to(tl)
+						margin-bottom: 8px
+						margin-right: 1%
+						text-align: center
+						width: 19%
+					+respond-to(tp)
+						margin-bottom: 8px
+						margin-right: 1%
+						text-align: center
+						width: 19%
+					+respond-to(sl)
+						margin-bottom: 8px
+						margin-right: 0
+						text-align: center
+						width: 100%
+					&:last-child
+						margin-right: 0
+					&.num-envio,
+					&.ingresar
+						+border-radius(3px)
+
+					&.num-envio
+						align-items: center
+						background-color: rgba(#1B1B23,.16)
+						border: 1px solid #3B8BCE
+						display: flex
+						justify-content: flex-start
+						+respond-to(tl)
+							margin-right: 2%
+							max-width: 48%
+							text-align: center
+							width: 190px
+						+respond-to(sl)
+							margin-right: 2%
+							max-width: 48%
+							text-align: center
+							width: 190px
+						+respond-to(sl)
+							margin-right: 0
+							max-width: 100%
+							text-align: center
+							width: 100%
+						i
+							align-items: center
+							background-color: #3B8BCE
+							display: flex
+							justify-content: center
+							padding: .4rem .8rem
+							+respond-to(md)
+								padding: .4rem .6rem
+						span
+							display: flex
+							padding: .18rem .8rem
+							+respond-to(md)
+								padding: .18rem .6rem
+
+
+					&.ingresar
+						background-color: #3B8BCE
+						padding: .4rem .8rem
+						+respond-to(md)
+							padding: .4rem .6rem
 
 	.header-jumbotron
 		align-items: center

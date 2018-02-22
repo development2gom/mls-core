@@ -1,1 +1,1 @@
-$(document).ready(function(){console.log("Jquery Running")});
+$(document).ready(function(){console.log("Jquery Running"),window.addEventListener("resize",function(){var n=$(window).width();$(".screensize-tag").html(n+" px")}),$(function(){$(window).scroll(function(){$(".header-navigation").offset().top>400?$(".header-navigation").addClass("azul"):$(".header-navigation").removeClass("azul")})}),$("#btm-open-menu").on("click",function(){$(".btm-open-menu").toggleClass("btm-open-menu-toggle"),$("#nav").slideToggle("slow"),$("#nav").toggleClass("nav-toggle")})});
