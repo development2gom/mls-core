@@ -9,13 +9,37 @@
 
 .marcas
 	background-color: $white
-	padding: 40px 0 60px
+	padding: 10px 0 20px
 	position: relative
 	z-index: 2
 	.container-1024
-		align-items: center
-		display: flex
-		justify-content: center
-		img
+		position: relative
+		z-index: 1
+		.marcas-primary,
+		.marcas-second
+			align-items: center
 			display: flex
-			max-width: 100%
+			flex-direction: column
+			justify-content: center
+			padding: 20px 0 10px
+			width: 100%
+			img
+				display: flex
+				max-width: 100%
+			
+		.marcas-second
+			display: none
+			margin-top: 16px
+	
+	.marcas-mask
+		background-color: transparent
+		bottom: 0
+		cursor: pointer
+		display: block
+		height: 100%
+		left: 0
+		position: absolute
+		right: 0
+		top: 0
+		width: 100%
+		z-index: 3

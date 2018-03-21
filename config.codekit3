@@ -360,6 +360,96 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/webassets\/images\/industrias\/automotriz.jpg": {
+		"ft": 16384,
+		"iS": 300207,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/automotriz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webassets\/images\/industrias\/comercio.jpg": {
+		"ft": 16384,
+		"iS": 479035,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/comercio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webassets\/images\/industrias\/comida.jpg": {
+		"ft": 16384,
+		"iS": 274765,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/comida.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webassets\/images\/industrias\/farma.jpg": {
+		"ft": 16384,
+		"iS": 165054,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/farma.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webassets\/images\/industrias\/financiera.jpeg": {
+		"ft": 16384,
+		"iS": 272159,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/financiera.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webassets\/images\/industrias\/tabaco.jpg": {
+		"ft": 16384,
+		"iS": 412964,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/tabaco.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webassets\/images\/industrias\/telecom.jpeg": {
+		"ft": 16384,
+		"iS": 311334,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/telecom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webassets\/images\/industrias\/textil.jpg": {
+		"ft": 16384,
+		"iS": 335987,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/textil.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webassets\/images\/industrias\/turismo.jpeg": {
+		"ft": 16384,
+		"iS": 199371,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/turismo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/webassets\/images\/marcas.png": {
 		"ft": 32768,
 		"iS": 97135,
@@ -509,9 +599,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/webassets\/js\/jquery-3.1.1.min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -529,9 +619,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/webassets\/js\/scripts-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},

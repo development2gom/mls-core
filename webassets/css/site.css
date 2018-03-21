@@ -3674,24 +3674,50 @@ header {
 	*/
 .marcas {
   background-color: #FFF;
-  padding: 40px 0 60px;
+  padding: 10px 0 20px;
   position: relative;
   z-index: 2; }
   .marcas .container-1024 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .marcas .container-1024 img {
+    position: relative;
+    z-index: 1; }
+    .marcas .container-1024 .marcas-primary,
+    .marcas .container-1024 .marcas-second {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      max-width: 100%; }
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 20px 0 10px;
+      width: 100%; }
+      .marcas .container-1024 .marcas-primary img,
+      .marcas .container-1024 .marcas-second img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 100%; }
+    .marcas .container-1024 .marcas-second {
+      display: none;
+      margin-top: 16px; }
+  .marcas .marcas-mask {
+    background-color: transparent;
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3; }
 
 /*!
 	-----------------------------------------------------------------------------
@@ -4124,10 +4150,10 @@ header {
               align-items: center;
       /* Safari transitionend event.propertyName === flex */
       /* Chrome + FF transitionend event.propertyName === flex-grow */
-      -webkit-transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, -webkit-box-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
-      transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, -webkit-box-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
-      transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
-      transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, -webkit-box-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), -ms-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+      -webkit-transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, -webkit-box-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), -webkit-filter 0.2s;
+      transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, -webkit-box-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), -webkit-filter 0.2s;
+      transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, filter 0.2s;
+      transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s, filter 0.2s, -webkit-box-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), -ms-flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), -webkit-filter 0.2s;
       background-size: cover;
       background-position: 50%;
       -webkit-box-flex: 1;
@@ -4142,25 +4168,28 @@ header {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
-              flex-direction: column; }
-      .industrias .industrias-panels .panel.panel1 {
-        background-image: url(../images/panel-1.jpg); }
-      .industrias .industrias-panels .panel.panel2 {
-        background-image: url(../images/panel-2.jpg); }
-      .industrias .industrias-panels .panel.panel3 {
-        background-image: url(../images/panel-3.jpg); }
-      .industrias .industrias-panels .panel.panel4 {
-        background-image: url(../images/panel-4.jpg); }
-      .industrias .industrias-panels .panel.panel5 {
-        background-image: url(../images/panel-5.jpg); }
-      .industrias .industrias-panels .panel.panel6 {
-        background-image: url(../images/panel-6.jpg); }
-      .industrias .industrias-panels .panel.panel7 {
-        background-image: url(../images/panel-7.jpg); }
-      .industrias .industrias-panels .panel.panel8 {
-        background-image: url(../images/panel-8.jpg); }
-      .industrias .industrias-panels .panel.panel9 {
-        background-image: url(../images/panel-9.jpg); }
+              flex-direction: column;
+      position: relative;
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%); }
+      .industrias .industrias-panels .panel.indus-automotriz {
+        background-image: url(../images/industrias/automotriz.jpg); }
+      .industrias .industrias-panels .panel.indus-comercio {
+        background-image: url(../images/industrias/comercio.jpg); }
+      .industrias .industrias-panels .panel.indus-comida {
+        background-image: url(../images/industrias/comida.jpg); }
+      .industrias .industrias-panels .panel.indus-farma {
+        background-image: url(../images/industrias/farma.jpg); }
+      .industrias .industrias-panels .panel.indus-financiera {
+        background-image: url(../images/industrias/financiera.jpeg); }
+      .industrias .industrias-panels .panel.indus-telecom {
+        background-image: url(../images/industrias/telecom.jpeg); }
+      .industrias .industrias-panels .panel.indus-tabaco {
+        background-image: url(../images/industrias/tabaco.jpg); }
+      .industrias .industrias-panels .panel.indus-textil {
+        background-image: url(../images/industrias/textil.jpg); }
+      .industrias .industrias-panels .panel.indus-turismo {
+        background-image: url(../images/industrias/turismo.jpeg); }
       .industrias .industrias-panels .panel > * {
         margin: 0;
         width: 100%;
@@ -4186,21 +4215,25 @@ header {
       .industrias .industrias-panels .panel > *:last-child {
         -webkit-transform: translateY(100%);
                 transform: translateY(100%); }
-      .industrias .industrias-panels .panel.open-active > *:first-child {
-        -webkit-transform: translateY(0);
-                transform: translateY(0); }
-      .industrias .industrias-panels .panel.open-active > *:last-child {
-        -webkit-transform: translateY(0);
-                transform: translateY(0); }
+      .industrias .industrias-panels .panel.open-active {
+        -webkit-filter: grayscale(1%);
+                filter: grayscale(1%); }
+        .industrias .industrias-panels .panel.open-active > *:first-child {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0); }
+        .industrias .industrias-panels .panel.open-active > *:last-child {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0); }
       .industrias .industrias-panels .panel p {
         text-transform: uppercase;
         text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-        font-size: 1.6rem; }
+        font-size: 1.1rem;
+        position: relative; }
       .industrias .industrias-panels .panel.open {
         -webkit-box-flex: 5;
             -ms-flex: 5;
                 flex: 5;
-        font-size: 4rem; }
+        font-size: 2rem; }
 
 /*!
 	-----------------------------------------------------------------------------
@@ -4710,9 +4743,13 @@ footer {
                   -ms-flex-align: center;
                       align-items: center; } }
           footer .container-1024 .footer-details .footer-siguenos .footer-ul a,
+          footer .container-1024 .footer-details .footer-siguenos .footer-ul p,
           footer .container-1024 .footer-details .footer-contactanos .footer-ul a,
+          footer .container-1024 .footer-details .footer-contactanos .footer-ul p,
           footer .container-1024 .footer-cite .footer-siguenos .footer-ul a,
-          footer .container-1024 .footer-cite .footer-contactanos .footer-ul a {
+          footer .container-1024 .footer-cite .footer-siguenos .footer-ul p,
+          footer .container-1024 .footer-cite .footer-contactanos .footer-ul a,
+          footer .container-1024 .footer-cite .footer-contactanos .footer-ul p {
             color: #FFF;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -4724,22 +4761,34 @@ footer {
             margin-bottom: 24px; }
             @media screen and (max-width: 480px) {
               footer .container-1024 .footer-details .footer-siguenos .footer-ul a,
+              footer .container-1024 .footer-details .footer-siguenos .footer-ul p,
               footer .container-1024 .footer-details .footer-contactanos .footer-ul a,
+              footer .container-1024 .footer-details .footer-contactanos .footer-ul p,
               footer .container-1024 .footer-cite .footer-siguenos .footer-ul a,
-              footer .container-1024 .footer-cite .footer-contactanos .footer-ul a {
+              footer .container-1024 .footer-cite .footer-siguenos .footer-ul p,
+              footer .container-1024 .footer-cite .footer-contactanos .footer-ul a,
+              footer .container-1024 .footer-cite .footer-contactanos .footer-ul p {
                 margin-bottom: 20px;
                 text-align: center; } }
             @media screen and (max-width: 320px) {
               footer .container-1024 .footer-details .footer-siguenos .footer-ul a,
+              footer .container-1024 .footer-details .footer-siguenos .footer-ul p,
               footer .container-1024 .footer-details .footer-contactanos .footer-ul a,
+              footer .container-1024 .footer-details .footer-contactanos .footer-ul p,
               footer .container-1024 .footer-cite .footer-siguenos .footer-ul a,
-              footer .container-1024 .footer-cite .footer-contactanos .footer-ul a {
+              footer .container-1024 .footer-cite .footer-siguenos .footer-ul p,
+              footer .container-1024 .footer-cite .footer-contactanos .footer-ul a,
+              footer .container-1024 .footer-cite .footer-contactanos .footer-ul p {
                 margin-bottom: 16px;
                 text-align: center; } }
             footer .container-1024 .footer-details .footer-siguenos .footer-ul a i,
+            footer .container-1024 .footer-details .footer-siguenos .footer-ul p i,
             footer .container-1024 .footer-details .footer-contactanos .footer-ul a i,
+            footer .container-1024 .footer-details .footer-contactanos .footer-ul p i,
             footer .container-1024 .footer-cite .footer-siguenos .footer-ul a i,
-            footer .container-1024 .footer-cite .footer-contactanos .footer-ul a i {
+            footer .container-1024 .footer-cite .footer-siguenos .footer-ul p i,
+            footer .container-1024 .footer-cite .footer-contactanos .footer-ul a i,
+            footer .container-1024 .footer-cite .footer-contactanos .footer-ul p i {
               margin-right: 16px; }
       footer .container-1024 .footer-details .footer-logo,
       footer .container-1024 .footer-cite .footer-logo {
@@ -4925,4 +4974,3 @@ footer {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; } }
-/*# sourceMappingURL=site.css.map */

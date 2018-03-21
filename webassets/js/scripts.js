@@ -51,4 +51,11 @@ $(document).ready(function(){
 	panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
 
 
+	
+	// Mostrar/Ocultar Marcas secundarias
+	$( "#marcas" ).on("click", function() {
+		$( ".marcas-second" ).slideToggle( "slow");
+	});
+
+
 });

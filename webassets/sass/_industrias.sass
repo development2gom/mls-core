@@ -43,7 +43,7 @@
 			align-items: center
 			/* Safari transitionend event.propertyName === flex */
 			/* Chrome + FF transitionend event.propertyName === flex-grow */
-			transition: font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11), flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11), background 0.2s
+			transition: font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11), flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11), background 0.2s, filter 0.2s
 			// font-size: 20px
 			background-size: cover
 			background-position: 50%
@@ -51,27 +51,28 @@
 			justify-content: center
 			display: flex
 			flex-direction: column
-		
+			position: relative
+			filter: grayscale(100%)
 
 
-			&.panel1
-				background-image: url(../images/panel-1.jpg)
-			&.panel2
-				background-image: url(../images/panel-2.jpg)
-			&.panel3
-				background-image: url(../images/panel-3.jpg)
-			&.panel4
-				background-image: url(../images/panel-4.jpg)
-			&.panel5
-				background-image: url(../images/panel-5.jpg)
-			&.panel6
-				background-image: url(../images/panel-6.jpg)
-			&.panel7
-				background-image: url(../images/panel-7.jpg)
-			&.panel8
-				background-image: url(../images/panel-8.jpg)
-			&.panel9
-				background-image: url(../images/panel-9.jpg)
+			&.indus-automotriz
+				background-image: url(../images/industrias/automotriz.jpg)
+			&.indus-comercio
+				background-image: url(../images/industrias/comercio.jpg)
+			&.indus-comida
+				background-image: url(../images/industrias/comida.jpg)
+			&.indus-farma
+				background-image: url(../images/industrias/farma.jpg)
+			&.indus-financiera
+				background-image: url(../images/industrias/financiera.jpeg)
+			&.indus-telecom
+				background-image: url(../images/industrias/telecom.jpeg)
+			&.indus-tabaco
+				background-image: url(../images/industrias/tabaco.jpg)
+			&.indus-textil
+				background-image: url(../images/industrias/textil.jpg)
+			&.indus-turismo
+				background-image: url(../images/industrias/turismo.jpeg)
 
 			>
 				* 
@@ -91,23 +92,20 @@
 					transform: translateY(100%)
 
 			&.open-active
+				filter: grayscale(1%)
 				> 
 					*:first-child
 						transform: translateY(0) 
 					 
 					*:last-child
-						transform: translateY(0) 
-
+						transform: translateY(0)
 
 			p
 				text-transform: uppercase
-				// font-family: 'Amatic SC', cursive
 				text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45)
-				font-size: 1.6rem
-				// &:nth-child(2) 
-				// 	font-size: 3rem
+				font-size: 1.1rem
+				position: relative
 
 			&.open 
 				flex: 5
-				font-size: 4rem
-		
+				font-size: 2rem
