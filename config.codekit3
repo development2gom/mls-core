@@ -271,26 +271,14 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/webassets\/images\/bg-footer.png": {
-		"ft": 32768,
-		"iS": 2531698,
+	"\/webassets\/images\/bg-header.jpg": {
+		"ft": 16384,
+		"iS": 95574,
 		"oA": 0,
-		"oAP": "\/webassets\/images\/bg-footer.png",
+		"oAP": "\/webassets\/images\/bg-header.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/webassets\/images\/bg-header.png": {
-		"ft": 32768,
-		"iS": 1038227,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/bg-header.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/webassets\/images\/bg-niveles.jpg": {
@@ -303,17 +291,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/webassets\/images\/bg-niveles.png": {
-		"ft": 32768,
-		"iS": 1691554,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/bg-niveles.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/webassets\/images\/bg-servicios.jpg": {
 		"ft": 16384,
 		"iS": 329209,
@@ -322,17 +299,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/bg-servicios.png": {
-		"ft": 32768,
-		"iS": 2496752,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/bg-servicios.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/webassets\/images\/cobertura-nacional.png": {
@@ -395,16 +361,6 @@
 		"iS": 300207,
 		"oA": 0,
 		"oAP": "\/webassets\/images\/industrias\/automotriz.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/webassets\/images\/industrias\/comercio.jpg": {
-		"ft": 16384,
-		"iS": 479035,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/industrias\/comercio.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -518,17 +474,6 @@
 		"iS": 262457,
 		"oA": 0,
 		"oAP": "\/webassets\/images\/variedad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/webassets\/images\/volumen-requerido.png": {
-		"ft": 32768,
-		"iS": 486039,
-		"oA": 0,
-		"oAP": "\/webassets\/images\/volumen-requerido.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
