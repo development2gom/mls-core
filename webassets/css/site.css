@@ -3840,7 +3840,7 @@ header {
 	*/
 .servicios {
   background-color: #FFF;
-  background-image: url(../images/bg-servicios.png);
+  background-image: url(../images/bg-servicios.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4007,7 +4007,7 @@ header {
 	*/
 .niveles {
   background-color: #FFF;
-  background-image: url(../images/bg-niveles.png);
+  background-image: url(../images/bg-niveles.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4580,7 +4580,7 @@ header {
 	*/
 footer {
   background-color: #FFF;
-  background-image: url(../images/bg-footer.png);
+  background-image: url(../images/bg-footer.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4790,6 +4790,16 @@ footer {
             footer .container-1024 .footer-cite .footer-contactanos .footer-ul a i,
             footer .container-1024 .footer-cite .footer-contactanos .footer-ul p i {
               margin-right: 16px; }
+              @media screen and (max-width: 480px) {
+                footer .container-1024 .footer-details .footer-siguenos .footer-ul a i,
+                footer .container-1024 .footer-details .footer-siguenos .footer-ul p i,
+                footer .container-1024 .footer-details .footer-contactanos .footer-ul a i,
+                footer .container-1024 .footer-details .footer-contactanos .footer-ul p i,
+                footer .container-1024 .footer-cite .footer-siguenos .footer-ul a i,
+                footer .container-1024 .footer-cite .footer-siguenos .footer-ul p i,
+                footer .container-1024 .footer-cite .footer-contactanos .footer-ul a i,
+                footer .container-1024 .footer-cite .footer-contactanos .footer-ul p i {
+                  margin-right: 12px; } }
       footer .container-1024 .footer-details .footer-logo,
       footer .container-1024 .footer-cite .footer-logo {
         -webkit-box-align: end;
