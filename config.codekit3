@@ -7,7 +7,7 @@
 		"uuidString": "C172FDD3-72B0-466E-910B-E3C1CEE02A28"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/index.html": {
 		"cB": 0,
@@ -35,6 +35,13 @@
 		"oAP": "\/webassets\/css\/site-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/webassets\/css\/site.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webassets\/css\/site.css.map",
+		"oF": 0
 		},
 	"\/webassets\/favicons\/android-icon-192x192.png": {
 		"ft": 32768,
@@ -818,8 +825,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 540772788,
-	"displayValue": "corp",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "marel-logistic - corp -sass",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_purple"
 	},
 "projectSettings": {
