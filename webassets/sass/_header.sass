@@ -16,6 +16,9 @@ header
 	height: 80vh
 	position: relative
 	width: 100%
+	&.header-secciones
+		height: 60vh
+	
 	.header-navigation
 		background-color: transparent
 		display: flex
@@ -292,3 +295,11 @@ header
 				font-weight: $light
 				margin-top: 1.125rem
 				padding: .75rem 1.375rem
+
+	&.header-secciones
+		height: 60vh
+		.header-jumbotron
+			.container-1024
+				h2
+					max-width: 100%
+					text-align: center

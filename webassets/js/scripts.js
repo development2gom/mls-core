@@ -53,9 +53,9 @@ $(document).ready(function(){
 
 	
 	// Mostrar/Ocultar Marcas secundarias
-	$( "#marcas" ).on("click", function() {
-		$( ".marcas-second" ).slideToggle( "slow");
-	});
+	// $( "#marcas" ).on("click", function() {
+	// 	$( ".marcas-second" ).slideToggle( "slow");
+	// });
 
 
 });

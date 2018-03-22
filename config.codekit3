@@ -9,11 +9,32 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/acerca-de.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/acerca-de.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/servicios.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/servicios.html",
+		"oF": 0
+		},
+	"\/tecnologia.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tecnologia.html",
 		"oF": 0
 		},
 	"\/webassets\/css\/ionicons.min.css": {
@@ -23,16 +44,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/webassets\/css\/ionicons.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/webassets\/css\/site.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/webassets\/css\/site-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -301,6 +312,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/webassets\/images\/clientes-mls.jpg": {
+		"ft": 16384,
+		"iS": 15088,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/clientes-mls.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/webassets\/images\/cobertura-nacional.png": {
 		"ft": 32768,
 		"iS": 320886,
@@ -361,6 +382,16 @@
 		"iS": 300207,
 		"oA": 0,
 		"oAP": "\/webassets\/images\/industrias\/automotriz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webassets\/images\/industrias\/comercio.jpg": {
+		"ft": 16384,
+		"iS": 376742,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/industrias\/comercio.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -474,6 +505,17 @@
 		"iS": 262457,
 		"oA": 0,
 		"oAP": "\/webassets\/images\/variedad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/webassets\/images\/volumen-requerido.png": {
+		"ft": 32768,
+		"iS": 440669,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/volumen-requerido.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -770,6 +812,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/webassets\/sass\/site-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/webassets\/sass\/site-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/webassets\/sass\/site.css": {
 		"aP": 1,
 		"bl": 0,
@@ -786,7 +838,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/webassets\/css\/site.css",
 		"oF": 2,
