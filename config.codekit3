@@ -47,6 +47,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/webassets\/css\/site.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/webassets\/css\/site-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/webassets\/css\/site.css.map": {
 		"cB": 0,
 		"ft": 8192,
@@ -487,6 +497,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/webassets\/images\/nivel-actual.jpg": {
+		"ft": 16384,
+		"iS": 28457,
+		"oA": 0,
+		"oAP": "\/webassets\/images\/nivel-actual.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/webassets\/images\/planeacion.png": {

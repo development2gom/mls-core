@@ -30,7 +30,7 @@ header
 		+transition(all 0.3s ease-in)
 		z-index: 99
 		&.header-navigation-blue
-			background-color: rgba(#1761A4,.9)
+			background-color: rgba($primary,.9)
 			+transition(all 0.3s ease-out)
 		.container-1024
 			align-items: center
@@ -172,6 +172,7 @@ header
 				align-items: center
 				display: flex
 				justify-content: flex-end
+				overflow: hidden
 				+respond-to(tl)
 					background-color: purple
 					flex-wrap: wrap
@@ -194,7 +195,8 @@ header
 					width: 100%
 				&.nav-toggle
 					display: flex!important
-					height: 90px
+					// height: 90px
+					height: auto
 				a
 					color: $white
 					font-size: .85rem
@@ -228,7 +230,7 @@ header
 					&.num-envio
 						align-items: center
 						background-color: rgba(#1B1B23,.16)
-						border: 1px solid #3B8BCE
+						border: 1px solid $secondary
 						display: flex
 						justify-content: flex-start
 						+respond-to(tl)
@@ -248,7 +250,7 @@ header
 							width: 100%
 						i
 							align-items: center
-							background-color: #3B8BCE
+							background-color: $secondary
 							display: flex
 							justify-content: center
 							padding: .4rem .8rem
@@ -262,7 +264,7 @@ header
 
 
 					&.ingresar
-						background-color: #3B8BCE
+						background-color: $secondary
 						padding: .4rem .8rem
 						+respond-to(md)
 							padding: .4rem .6rem
@@ -288,7 +290,7 @@ header
 				max-width: 550px
 
 			a
-				background-color: #3B8BCE
+				background-color: $secondary
 				+border-radius(3px)
 				display: inline-block
 				font-size: 0.8125rem
