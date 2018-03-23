@@ -93,27 +93,96 @@ footer
 							margin-right: 16px
 							+respond-to(sl)
 								margin-right: 12px
-			
+
+			.footer-siguenos
+				+respond-to(tp)
+					width: 100%
+				+respond-to(sl)
+					width: 100%
+				+respond-to(sp)
+					width: 100%
+
+			.footer-contactanos
+				width: 45%
+				+respond-to(md)
+					width: 40%
+				+respond-to(tl)
+					width: 70%
+				+respond-to(tp)
+					width: 100%
+				+respond-to(sl)
+					width: 100%
+				+respond-to(sp)
+					width: 100%
+				.footer-ul
+					// background-color: green
+					// display: flex
+					.footer-ul-con
+						// background-color: pink
+						display: flex
+						flex-wrap: wrap
+						justify-content: space-between
+						.footer-ul-col
+							width: 48%
+							&:first-child
+								margin-right: 2%
+							+respond-to(sl)
+								width: 100%
+								&:first-child
+									margin-right: 0
+							+respond-to(sp)
+								width: 100%
+								&:first-child
+									margin-right: 0
+							h4
+								color: rgba($white,.4)
+								font-size: 1rem
+								font-weight: $light
+								margin-bottom: 8px
+								text-transform: uppercase
+								+respond-to(sl)
+									text-align: center
+								+respond-to(sp)
+									text-align: center
+							p
+								color: $white
+								display: flex
+								font-size: 0.875rem
+								justify-content: flex-start
+								// margin-bottom: 24px
+								width: 100%
+								i
+									margin-right: 16px
+									+respond-to(sl)
+										margin-right: 12px
+
+
 			.footer-logo
 				align-items: flex-end
 				justify-content: flex-end
-				margin-left: 40%
+				margin-left: 15%
 				+respond-to(md)
-					margin-left: 22%
+					margin-left: 8%
 				+respond-to(tl)
+					align-items: center
+					justify-content: center
 					margin-left: 0
+					width: 100%
 				+respond-to(tp)
 					align-items: center
 					justify-content: center
 					margin-left: 0
+					width: 100%
 				+respond-to(sl)
 					align-items: center
 					justify-content: center
 					margin-left: 0
+					width: 100%
 				+respond-to(sp)
 					align-items: center
 					justify-content: center
 					margin-left: 0
+					width: 100%
 				img
 					margin-top: 20px
 					max-width: 110px
