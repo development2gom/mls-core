@@ -1357,15 +1357,19 @@ header {
               filter: grayscale(100%); }
       @media (min-width: 601px) and (max-width: 800px) {
         .industrias .industrias-panels .panel {
+          text-align: left;
           width: 100%; } }
       @media screen and (max-width: 600px) {
         .industrias .industrias-panels .panel {
+          text-align: left;
           width: 100%; } }
       @media screen and (max-width: 480px) {
         .industrias .industrias-panels .panel {
+          text-align: left;
           width: 100%; } }
       @media screen and (max-width: 320px) {
         .industrias .industrias-panels .panel {
+          text-align: left;
           width: 100%; } }
       .industrias .industrias-panels .panel.indus-automotriz {
         background-image: url(../images/industrias/automotriz.jpg); }
@@ -1404,6 +1408,26 @@ header {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center; }
+        @media (min-width: 601px) and (max-width: 800px) {
+          .industrias .industrias-panels .panel > * {
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start; } }
+        @media screen and (max-width: 600px) {
+          .industrias .industrias-panels .panel > * {
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start; } }
+        @media screen and (max-width: 480px) {
+          .industrias .industrias-panels .panel > * {
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start; } }
+        @media screen and (max-width: 320px) {
+          .industrias .industrias-panels .panel > * {
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start; } }
       .industrias .industrias-panels .panel > *:first-child {
         -webkit-transform: translateY(-100%);
                 transform: translateY(-100%); }
@@ -1424,6 +1448,22 @@ header {
         text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
         font-size: 1.1rem;
         position: relative; }
+        @media (min-width: 601px) and (max-width: 800px) {
+          .industrias .industrias-panels .panel p {
+            font-size: 1.85rem;
+            padding-left: 8vw; } }
+        @media screen and (max-width: 600px) {
+          .industrias .industrias-panels .panel p {
+            font-size: 1.85rem;
+            padding-left: 8vw; } }
+        @media (min-width: 601px) and (max-width: 800px) {
+          .industrias .industrias-panels .panel p {
+            font-size: 1.65rem;
+            padding-left: 8vw; } }
+        @media screen and (max-width: 600px) {
+          .industrias .industrias-panels .panel p {
+            font-size: 1.65rem;
+            padding-left: 8vw; } }
       .industrias .industrias-panels .panel.open {
         -webkit-box-flex: 5;
             -ms-flex: 5;
